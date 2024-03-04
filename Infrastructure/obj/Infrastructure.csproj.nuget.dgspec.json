@@ -4,14 +4,98 @@
     "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +126,87 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj"
+              },
+              "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

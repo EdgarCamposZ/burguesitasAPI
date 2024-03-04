@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GtcacLKg6j/Yx6xJSu1oX4dEORvNlh634WzB+o8b7gyGI1Vq8y4aKYhqiuARNa09jAfNJBOAtzgsREi8kz0pgw==",
+  "dgSpecHash": "v8tLLZ6Qnpr828uzFjn427pWV+G5GWMnkD+LWg49SgT+5Vvha4HJge1Px7nq4sP9z3OEwe2aOTvXO0SrVoDaTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

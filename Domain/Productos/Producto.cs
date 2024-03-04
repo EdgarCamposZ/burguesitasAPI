@@ -20,7 +20,7 @@ public sealed class Producto : AggregateRoot
     public ProductoId Id { get; private set; }
     public string Nombre { get; private set; } = string.Empty;
     public string Descripcion { get; set; } = string.Empty;
-    public double Precio { get; set; } = double;
+    public double Precio { get; set; }
 
     public static Producto UpdateProducto(Guid id, string nombre, string descripcion, double precio)
     {
