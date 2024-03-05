@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj": {
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\obj\\",
+        "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj"
+              "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\Domain.csproj"
               }
             }
           }
@@ -88,22 +95,29 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -156,33 +170,40 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj"
+              "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Application\\Application.csproj"
               },
-              "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj"
+              "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\Tarea\\burguesitasAPI\\Domain\\Domain.csproj"
               }
             }
           }
