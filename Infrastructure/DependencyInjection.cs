@@ -6,6 +6,7 @@ using Infrastructure.Persistence;
 using Infrastructure.Persistence.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Domain.Combos;
 
 namespace Infrastructure;
 
@@ -30,6 +31,7 @@ public static class DependencyInjection
 
         services.AddScoped<IProductoRepository, ProductoRepository>();
         services.AddScoped<IClienteRepository, ClienteRepository>();
+        services.AddScoped<IComboRepository, ComboRepository>();
 
         return services;
     }

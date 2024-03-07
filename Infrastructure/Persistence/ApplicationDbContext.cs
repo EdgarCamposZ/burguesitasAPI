@@ -2,6 +2,7 @@ using Application.Data;
 using Domain.Productos;
 using Domain.Clientes;
 using Domain.Primitives;
+using Domain.Combos;
 
 namespace Infrastructure.Persistence;
 
@@ -16,6 +17,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWor
 
     public DbSet<Producto> Productos { get; set; }
     public DbSet<Cliente> Clientes { get; set; }
+    public DbSet<Combo> Combos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
