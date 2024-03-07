@@ -1,5 +1,6 @@
 using Application.Data;
 using Domain.Productos;
+using Domain.Clientes;
 using Domain.Primitives;
 using Infrastructure.Persistence;
 using Infrastructure.Persistence.Repositories;
@@ -28,6 +29,7 @@ public static class DependencyInjection
                 sp.GetRequiredService<ApplicationDbContext>());
 
         services.AddScoped<IProductoRepository, ProductoRepository>();
+        services.AddScoped<IClienteRepository, ClienteRepository>();
 
         return services;
     }
