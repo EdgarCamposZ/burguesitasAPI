@@ -11,3 +11,16 @@ C:\Users\User\Documents\UNIVO - PRE 2024\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPI
 C:\Users\User\Documents\UNIVO - PRE 2024\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\PROYECTOS\burguesitasAPI\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\User\Documents\UNIVO - PRE 2024\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\PROYECTOS\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\User\Documents\UNIVO - PRE 2024\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\PROYECTOS\burguesitasAPI\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\crist\OneDrive\Escritorio\Tarea\burguesitasAPI\Domain\obj\Debug\net7.0\ref\Domain.dll
