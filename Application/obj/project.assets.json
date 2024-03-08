@@ -746,19 +746,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\César Navarrete\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\César Navarrete\\Desktop\\burguesitasAPI\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Application\\obj\\",
+      "projectPath": "C:\\Users\\César Navarrete\\Desktop\\burguesitasAPI\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\César Navarrete\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\César Navarrete\\Desktop\\burguesitasAPI\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\César Navarrete\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -770,8 +770,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\UNIVO - PRE 2024\\MODULO 1 ARQUITECTURA DE SOFTWARE LIMPIA\\PROYECTOS\\burguesitasAPI\\Domain\\Domain.csproj"
+            "C:\\Users\\César Navarrete\\Desktop\\burguesitasAPI\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\César Navarrete\\Desktop\\burguesitasAPI\\Domain\\Domain.csproj"
             }
           }
         }
@@ -823,12 +823,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
