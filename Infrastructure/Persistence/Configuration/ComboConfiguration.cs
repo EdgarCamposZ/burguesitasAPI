@@ -22,5 +22,7 @@ public class ComboConfiguration : IEntityTypeConfiguration<Combo>
 
         builder.Property(c => c.Precio);
 
+        builder.Property(c => c.ProductoId);
+
     }
 }

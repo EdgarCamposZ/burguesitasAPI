@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240307182145_thirtyMigration")]
-    partial class thirtyMigration
+    [Migration("20240308171250_FourtyMigration")]
+    partial class FourtyMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -77,6 +77,10 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.Property<double>("Precio")
                         .HasColumnType("float");
+
+                    b.Property<string>("ProductoId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

@@ -24,6 +24,7 @@ internal sealed class GetComboByIdQueryHandler : IRequestHandler<GetComboByIdQue
             combo.Id.Value, 
             combo.Nombre, 
             combo.Descripcion, 
-            combo.Precio);
+            combo.Precio,
+            combo.ProductoId);
     }
 }

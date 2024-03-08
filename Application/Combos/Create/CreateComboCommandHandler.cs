@@ -21,7 +21,8 @@ public sealed class CreateComboCommandHandler : IRequestHandler<CreateComboComma
             new ComboId(Guid.NewGuid()),
             command.Nombre,
             command.Descripcion,
-            command.Precio
+            command.Precio,
+            command.ProductoId
         );
 
         _comboRepository.Add(combo);

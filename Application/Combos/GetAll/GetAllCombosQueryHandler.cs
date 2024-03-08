@@ -21,7 +21,8 @@ internal sealed class GetAllCombosQueryHandler : IRequestHandler<GetAllCombosQue
                 combo.Id.Value,
                 combo.Nombre,
                 combo.Descripcion,
-                combo.Precio
+                combo.Precio,
+                combo.ProductoId
             )).ToList();
     }
 }

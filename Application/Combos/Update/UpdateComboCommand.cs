@@ -4,4 +4,5 @@ public record UpdateComboCommand(
     Guid Id,
     string Nombre,
     string Descripcion,
-    double Precio) : IRequest<ErrorOr<Unit>>;
+    double Precio,
+    string ProductoId) : IRequest<ErrorOr<Unit>>;

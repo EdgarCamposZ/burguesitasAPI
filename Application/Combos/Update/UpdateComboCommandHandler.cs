@@ -22,7 +22,8 @@ internal sealed class UpdateComboCommandHandler : IRequestHandler<UpdateComboCom
 
         Combo combo = Combo.UpdateCombo(command.Id, command.Nombre,
             command.Descripcion,
-            command.Precio);
+            command.Precio,
+            command.ProductoId);
 
         _comboRepository.Update(combo);
 

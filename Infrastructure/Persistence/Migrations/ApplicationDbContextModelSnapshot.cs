@@ -75,6 +75,10 @@ namespace Infrastructure.Persistence.Migrations
                     b.Property<double>("Precio")
                         .HasColumnType("float");
 
+                    b.Property<string>("ProductoId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Combos", (string)null);

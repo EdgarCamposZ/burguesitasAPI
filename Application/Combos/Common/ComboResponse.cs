@@ -4,4 +4,5 @@ public record ComboResponse(
 Guid Id,
 string Nombre,
 string Descripcion,
-double Precio);
+double Precio,
+string ProductoId);
